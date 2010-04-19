@@ -28,7 +28,8 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
- * @author oracle
+ * 
+ * @author Stefano Maestri stefano.maestri@javalinux.it
  *
  */
 public class AppTest {

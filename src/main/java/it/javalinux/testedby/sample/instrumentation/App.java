@@ -1,7 +1,8 @@
 package it.javalinux.testedby.sample.instrumentation;
 
 /**
- * Hello world!
+ * 
+ * @author Stefano Maestri stefano.maestri@javalinux.it
  *
  */
 public class App 
