@@ -18,12 +18,9 @@
  * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
  */
-package it.javalinux.testedby.sample.annotations.interfaces;
+package it.javalinux.sibilla.sample.annotations.classes;
 
-import static org.junit.Assert.assertTrue;
-
-import static it.javalinux.testedby.factories.ClassUnderTestFactory.instanceClassUnderTest;
-
+import static org.junit.Assert.fail;
 
 import org.junit.Test;
 
@@ -32,23 +29,15 @@ import org.junit.Test;
  * 
  */
 
-public class TestClassOnInterfaceOne {
+public class TestClassOne {
 
     @Test
-    public void testMethodOne() throws Exception {
+    public void testMethodOne() {
 	System.out.println("invoking testMethodOne on " + this.getClass().getCanonicalName());
-	InterfaceUnderTestOne interfaceInstance= instanceClassUnderTest(InterfaceUnderTestOne.class);
-	interfaceInstance.methodOne();
-	interfaceInstance.methodTwo();
-	assertTrue(true);
     }
 
     @Test
-    public void testMethodTwo() throws Exception {
+    public void testMethodTwo() {
 	System.out.println("invoking testMethodTwo on " + this.getClass().getCanonicalName());
-	System.out.println("invoking testMethodOne on " + this.getClass().getCanonicalName());
-	InterfaceUnderTestOne interfaceInstance= instanceClassUnderTest(InterfaceUnderTestOne.class);
-	interfaceInstance.methodOne();
-	assertTrue(true);
     }
 }

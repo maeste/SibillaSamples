@@ -1,4 +1,4 @@
-package it.javalinux.testedby.sample.instrumentation;
+package it.javalinux.sibilla.sample.instrumentation;
 
 /**
  * 

@@ -18,9 +18,10 @@
  * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
  */
-package it.javalinux.testedby.sample.instrumentation;
+package it.javalinux.sibilla.sample.instrumentation;
 
 import static org.hamcrest.core.IsEqual.equalTo;
+import it.javalinux.sibilla.sample.instrumentation.App;
 
 import static org.junit.Assert.*;
 
@@ -37,7 +38,7 @@ public class AppTest {
     public App app;
     
     /**
-     * Test method for {@link it.javalinux.testedby.sample.instrumentation.App#getFoo()}.
+     * Test method for {@link it.javalinux.sibilla.sample.instrumentation.App#getFoo()}.
      */
     @Test
     public void testGetFooAlwaysPass() {
@@ -46,7 +47,7 @@ public class AppTest {
     }
 
     /**
-     * Test method for {@link it.javalinux.testedby.sample.instrumentation.App#setFoo(java.lang.String)}.
+     * Test method for {@link it.javalinux.sibilla.sample.instrumentation.App#setFoo(java.lang.String)}.
      */
     @Test
     public void testSetFooAlwaysPass() {
@@ -55,7 +56,7 @@ public class AppTest {
     }
 
     /**
-     * Test method for {@link it.javalinux.testedby.sample.instrumentation.App#getFooInt()}.
+     * Test method for {@link it.javalinux.sibilla.sample.instrumentation.App#getFooInt()}.
      */
     @Test
     public void testGetFooIntAlwaysPass() {
@@ -64,7 +65,7 @@ public class AppTest {
     }
 
     /**
-     * Test method for {@link it.javalinux.testedby.sample.instrumentation.App#setFooInt(int)}.
+     * Test method for {@link it.javalinux.sibilla.sample.instrumentation.App#setFooInt(int)}.
      */
     @Test
     public void testSetFooIntAlwaysPass() {

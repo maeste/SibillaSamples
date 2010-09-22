@@ -1,5 +1,5 @@
 /*
- * Stefano Maestri, javalinux.it Copyright 2010, and individual contributors
+ * Stefano Maestri, javalinuxlabs.org Copyright 2008, and individual contributors
  * as indicated by the @author tags. See the copyright.txt file in the
  * distribution for a full listing of individual contributors. 
  *
@@ -18,39 +18,29 @@
  * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
  */
-package it.javalinux.testedby.sample.annotations.classes;
+package it.javalinux.sibilla.sample.annotations.interfaces;
 
-import it.javalinux.testedby.annotations.TestedByFactory;
-import it.javalinux.testedby.sample.annotations.factories.MyOwnFactory;
-import it.javalinux.testedby.sample.annotations.interfaces.InterfaceUnderTestOne;
+import it.javalinux.sibilla.annotations.TestedBy;
 
 /**
  * @author Stefano Maestri stefano.maestri@javalinux.it
- *
+ * 
  */
-@TestedByFactory(MyOwnFactory.class)
-public class SecondImplementationOfInterfaceOne implements InterfaceUnderTestOne {
-    
-    public SecondImplementationOfInterfaceOne(String foo) {
-	System.out.println("creating " + this.getClass().getCanonicalName());
-    }
+public abstract class AbstractClassExtendingInterfaceAddingAnnotations implements InterfaceUnderTestOne {
 
     /**
      * {@inheritDoc}
-     *
-     * @see it.javalinux.testedby.sample.annotations.interfaces.InterfaceUnderTestOne#methodOne()
+     * 
+     * @see it.javalinux.sibilla.sample.annotations.interfaces.InterfaceUnderTestOne#methodOne()
      */
-    public void methodOne() {
-	System.out.println("invoking methodOne on " + this.getClass().getCanonicalName());
-    }
+    @TestedBy(testClass = "TestClassOnInterfaceOne")
+    public abstract void methodOne();
 
     /**
      * {@inheritDoc}
-     *
-     * @see it.javalinux.testedby.sample.annotations.interfaces.InterfaceUnderTestOne#methodTwo()
+     * 
+     * @see it.javalinux.sibilla.sample.annotations.interfaces.InterfaceUnderTestOne#methodTwo()
      */
-    public void methodTwo() {
-	System.out.println("invoking methodOne on " + this.getClass().getCanonicalName());
-    }
+    public abstract void methodTwo();
 
 }

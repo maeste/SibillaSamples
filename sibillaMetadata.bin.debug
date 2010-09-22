@@ -1,0 +1,1410 @@
+<it.javalinux.sibilla.metadata.impl.MetadataRepository>
+  <testsLinks>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.instrumentation.AppTest</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+          <name>testGetFooIntAlwaysPass</name>
+          <isConstructor>false</isConstructor>
+          <parameterTypes/>
+        </methodRef>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.instrumentation.App</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>getFooInt</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>false</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <creationDateInMillis>1285170459545</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.instrumentation.App</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>App</name>
+            <isConstructor>true</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>false</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <creationDateInMillis>1285170459545</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+          <name>testMethodOne</name>
+          <isConstructor>false</isConstructor>
+          <parameterTypes/>
+        </methodRef>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.factories.DefaultClassUnderTestInstanceFactory</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>createInstance</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes>
+              <string>java.lang.Class</string>
+            </parameterTypes>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>false</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <creationDateInMillis>1285170459560</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.AbstractClassExtendingInterfaceAddingAnnotations</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>methodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>true</fromAnnotation>
+            <fromInstrumentation>false</fromInstrumentation>
+            <passedOnLastRun>false</passedOnLastRun>
+            <creationDateInMillis>1285170459509</creationDateInMillis>
+            <onAbstract>true</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.ClassLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.AbstractClassExtendingInterfaceAddingAnnotations</clazz>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>true</fromAnnotation>
+            <fromInstrumentation>false</fromInstrumentation>
+            <passedOnLastRun>false</passedOnLastRun>
+            <upperMostClassInHierarchyDefiningThisMetadata>it.javalinux.sibilla.sample.annotations.interfaces.InterfaceUnderTestOne</upperMostClassInHierarchyDefiningThisMetadata>
+            <creationDateInMillis>1285170459509</creationDateInMillis>
+            <onAbstract>true</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.ClassLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.factories.ClassUnderTestFactory</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>instanceClassUnderTest</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes>
+              <string>java.lang.Class</string>
+            </parameterTypes>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>false</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <creationDateInMillis>1285170459560</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.classes.SecondImplementationOfInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>SecondImplementationOfInterfaceOne</name>
+            <isConstructor>true</isConstructor>
+            <parameterTypes>
+              <string>java.lang.String</string>
+            </parameterTypes>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>false</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <creationDateInMillis>1285170459560</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.ClassLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.classes.SecondImplementationOfInterfaceOne</clazz>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>true</fromAnnotation>
+            <fromInstrumentation>false</fromInstrumentation>
+            <passedOnLastRun>false</passedOnLastRun>
+            <upperMostClassInHierarchyDefiningThisMetadata>it.javalinux.sibilla.sample.annotations.interfaces.InterfaceUnderTestOne</upperMostClassInHierarchyDefiningThisMetadata>
+            <creationDateInMillis>1285170459505</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.ClassLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.classes.FirstImplementationOfInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>FirstImplementationOfInterfaceOne</name>
+            <isConstructor>true</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>false</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <creationDateInMillis>1285170459560</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.AbstractClassExtendingInterfaceAddingAnnotations</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>AbstractClassExtendingInterfaceAddingAnnotations</name>
+            <isConstructor>true</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>false</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <creationDateInMillis>1285170459560</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.factories.MyOwnFactory</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>MyOwnFactory</name>
+            <isConstructor>true</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>false</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <creationDateInMillis>1285170459560</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.classes.FirstImplementationOfInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>methodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>false</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <creationDateInMillis>1285170459560</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.classes.SecondImplementationOfInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>methodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>false</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <creationDateInMillis>1285170459560</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.classes.FirstImplementationOfInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>methodTwo</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>false</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <creationDateInMillis>1285170459560</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.ClassLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.classes.FirstImplementationOfInterfaceOne</clazz>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>true</fromAnnotation>
+            <fromInstrumentation>false</fromInstrumentation>
+            <passedOnLastRun>false</passedOnLastRun>
+            <upperMostClassInHierarchyDefiningThisMetadata>it.javalinux.sibilla.sample.annotations.interfaces.InterfaceUnderTestOne</upperMostClassInHierarchyDefiningThisMetadata>
+            <creationDateInMillis>1285170459513</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.ClassLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.factories.DefaultClassUnderTestInstanceFactory</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>DefaultClassUnderTestInstanceFactory</name>
+            <isConstructor>true</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>false</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <creationDateInMillis>1285170459560</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.classes.ImplementationOfInterfaceOneThroughAbstractClass</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>ImplementationOfInterfaceOneThroughAbstractClass</name>
+            <isConstructor>true</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>false</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <creationDateInMillis>1285170459560</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.factories.MyOwnFactory</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>createInstance</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes>
+              <string>java.lang.Class</string>
+            </parameterTypes>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>false</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <creationDateInMillis>1285170459560</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.classes.SecondImplementationOfInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>methodTwo</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>false</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <creationDateInMillis>1285170459560</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.ClassLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.InterfaceUnderTestOne</clazz>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>true</fromAnnotation>
+            <fromInstrumentation>false</fromInstrumentation>
+            <passedOnLastRun>false</passedOnLastRun>
+            <creationDateInMillis>1285170459513</creationDateInMillis>
+            <onAbstract>true</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.ClassLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.classes.ImplementationOfInterfaceOneThroughAbstractClass</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>methodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>true</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <upperMostClassInHierarchyDefiningThisMetadata>it.javalinux.sibilla.sample.annotations.interfaces.AbstractClassExtendingInterfaceAddingAnnotations</upperMostClassInHierarchyDefiningThisMetadata>
+            <creationDateInMillis>1285170459511</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.classes.ImplementationOfInterfaceOneThroughAbstractClass</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>methodTwo</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>false</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <creationDateInMillis>1285170459560</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.ClassLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.classes.ImplementationOfInterfaceOneThroughAbstractClass</clazz>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>true</fromAnnotation>
+            <fromInstrumentation>false</fromInstrumentation>
+            <passedOnLastRun>false</passedOnLastRun>
+            <upperMostClassInHierarchyDefiningThisMetadata>it.javalinux.sibilla.sample.annotations.interfaces.InterfaceUnderTestOne</upperMostClassInHierarchyDefiningThisMetadata>
+            <creationDateInMillis>1285170459511</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.ClassLinkMetadata>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.instrumentation.AppTest</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+          <name>testSetFooIntAlwaysPass</name>
+          <isConstructor>false</isConstructor>
+          <parameterTypes/>
+        </methodRef>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.instrumentation.App</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>getFooInt</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>false</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <creationDateInMillis>1285170459547</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.instrumentation.App</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>App</name>
+            <isConstructor>true</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>false</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <creationDateInMillis>1285170459547</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.instrumentation.App</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>setFooInt</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes>
+              <string>int</string>
+            </parameterTypes>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>false</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <creationDateInMillis>1285170459547</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceTwo</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+          <name>testMethodOne</name>
+          <isConstructor>false</isConstructor>
+          <parameterTypes/>
+        </methodRef>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.InterfaceUnderTestOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>methodTwo</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>true</fromAnnotation>
+            <fromInstrumentation>false</fromInstrumentation>
+            <passedOnLastRun>false</passedOnLastRun>
+            <creationDateInMillis>1285170459514</creationDateInMillis>
+            <onAbstract>true</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.classes.SecondImplementationOfInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>methodTwo</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>true</fromAnnotation>
+            <fromInstrumentation>false</fromInstrumentation>
+            <passedOnLastRun>false</passedOnLastRun>
+            <upperMostClassInHierarchyDefiningThisMetadata>it.javalinux.sibilla.sample.annotations.interfaces.InterfaceUnderTestOne</upperMostClassInHierarchyDefiningThisMetadata>
+            <creationDateInMillis>1285170459509</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.classes.FirstImplementationOfInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>methodTwo</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>true</fromAnnotation>
+            <fromInstrumentation>false</fromInstrumentation>
+            <passedOnLastRun>false</passedOnLastRun>
+            <upperMostClassInHierarchyDefiningThisMetadata>it.javalinux.sibilla.sample.annotations.interfaces.InterfaceUnderTestOne</upperMostClassInHierarchyDefiningThisMetadata>
+            <creationDateInMillis>1285170459513</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.AbstractClassExtendingInterfaceAddingAnnotations</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>methodTwo</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>true</fromAnnotation>
+            <fromInstrumentation>false</fromInstrumentation>
+            <passedOnLastRun>false</passedOnLastRun>
+            <upperMostClassInHierarchyDefiningThisMetadata>it.javalinux.sibilla.sample.annotations.interfaces.InterfaceUnderTestOne</upperMostClassInHierarchyDefiningThisMetadata>
+            <creationDateInMillis>1285170459510</creationDateInMillis>
+            <onAbstract>true</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.classes.ImplementationOfInterfaceOneThroughAbstractClass</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>methodTwo</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>true</fromAnnotation>
+            <fromInstrumentation>false</fromInstrumentation>
+            <passedOnLastRun>false</passedOnLastRun>
+            <upperMostClassInHierarchyDefiningThisMetadata>it.javalinux.sibilla.sample.annotations.interfaces.InterfaceUnderTestOne</upperMostClassInHierarchyDefiningThisMetadata>
+            <creationDateInMillis>1285170459512</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.instrumentation.AppTest</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+          <name>testGetFooAlwaysPass</name>
+          <isConstructor>false</isConstructor>
+          <parameterTypes/>
+        </methodRef>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.instrumentation.App</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>App</name>
+            <isConstructor>true</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>false</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <creationDateInMillis>1285170459540</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.instrumentation.App</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>getFoo</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>false</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <creationDateInMillis>1285170459540</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.instrumentation.AppTest</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+          <name>testSetFooAlwaysPass</name>
+          <isConstructor>false</isConstructor>
+          <parameterTypes/>
+        </methodRef>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.instrumentation.App</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>setFoo</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes>
+              <string>java.lang.String</string>
+            </parameterTypes>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>false</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <creationDateInMillis>1285170459543</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.instrumentation.App</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>App</name>
+            <isConstructor>true</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>false</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <creationDateInMillis>1285170459542</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.instrumentation.App</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>getFoo</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>false</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <creationDateInMillis>1285170459543</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+          <name>testMethodTwo</name>
+          <isConstructor>false</isConstructor>
+          <parameterTypes/>
+        </methodRef>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.AbstractClassExtendingInterfaceAddingAnnotations</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>methodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes reference="../../../../../entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[2]/method/parameterTypes"/>
+          </method>
+          <status reference="../../../../entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[2]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.factories.DefaultClassUnderTestInstanceFactory</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>createInstance</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes>
+              <string>java.lang.Class</string>
+            </parameterTypes>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>false</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <creationDateInMillis>1285170459565</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.factories.ClassUnderTestFactory</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>instanceClassUnderTest</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes>
+              <string>java.lang.Class</string>
+            </parameterTypes>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>false</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <creationDateInMillis>1285170459565</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.AbstractClassExtendingInterfaceAddingAnnotations</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>AbstractClassExtendingInterfaceAddingAnnotations</name>
+            <isConstructor>true</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>false</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <creationDateInMillis>1285170459564</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.factories.DefaultClassUnderTestInstanceFactory</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>DefaultClassUnderTestInstanceFactory</name>
+            <isConstructor>true</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>false</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <creationDateInMillis>1285170459565</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.classes.ImplementationOfInterfaceOneThroughAbstractClass</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>ImplementationOfInterfaceOneThroughAbstractClass</name>
+            <isConstructor>true</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status>
+            <valid>true</valid>
+            <justCreated>false</justCreated>
+            <fromAnnotation>false</fromAnnotation>
+            <fromInstrumentation>true</fromInstrumentation>
+            <passedOnLastRun>true</passedOnLastRun>
+            <creationDateInMillis>1285170459565</creationDateInMillis>
+            <onAbstract>false</onAbstract>
+          </status>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.classes.ImplementationOfInterfaceOneThroughAbstractClass</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>methodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes reference="../../../../../entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[15]/method/parameterTypes"/>
+          </method>
+          <status reference="../../../../entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[15]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+      </set>
+    </entry>
+  </testsLinks>
+  <isTestedByLinks>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.annotations.classes.ImplementationOfInterfaceOneThroughAbstractClass</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+          <isConstructor>false</isConstructor>
+          <parameterTypes/>
+        </methodRef>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.ClassLinkMetadata[5]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodTwo</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[15]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceTwo</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[4]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[5]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.instrumentation.App</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../testsLinks/entry[3]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[3]/method"/>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.instrumentation.AppTest</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testSetFooIntAlwaysPass</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[3]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[3]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.annotations.classes.ImplementationOfInterfaceOneThroughAbstractClass</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[12]/method"/>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[12]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodTwo</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[7]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[6]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.annotations.interfaces.AbstractClassExtendingInterfaceAddingAnnotations</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+          <isConstructor>false</isConstructor>
+          <parameterTypes/>
+        </methodRef>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.ClassLinkMetadata/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../../testsLinks/entry[7]/it.javalinux.sibilla.metadata.impl.MetadataRepository$MethodInfo/methodRef"/>
+          <status reference="../../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[2]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceTwo</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[4]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[4]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.annotations.classes.SecondImplementationOfInterfaceOne</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+          <isConstructor>false</isConstructor>
+          <parameterTypes/>
+        </methodRef>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../../testsLinks/entry[2]/it.javalinux.sibilla.metadata.impl.MetadataRepository$MethodInfo/methodRef"/>
+          <status reference="../../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.ClassLinkMetadata[2]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceTwo</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../../testsLinks/entry[4]/it.javalinux.sibilla.metadata.impl.MetadataRepository$MethodInfo/methodRef"/>
+          <status reference="../../../../../testsLinks/entry[4]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[2]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.annotations.classes.ImplementationOfInterfaceOneThroughAbstractClass</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../testsLinks/entry[4]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[5]/method"/>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[16]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata reference="../../../entry/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[3]"/>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.annotations.classes.SecondImplementationOfInterfaceOne</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[4]/method"/>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[4]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.annotations.classes.FirstImplementationOfInterfaceOne</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../testsLinks/entry[4]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[3]/method"/>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[10]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceTwo</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[4]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[3]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.annotations.classes.FirstImplementationOfInterfaceOne</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[8]/method"/>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[8]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.annotations.classes.ImplementationOfInterfaceOneThroughAbstractClass</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[15]/method"/>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[15]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata reference="../../../entry/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[2]"/>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.annotations.interfaces.InterfaceUnderTestOne</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../testsLinks/entry[4]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata/method"/>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceTwo</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[4]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.annotations.factories.MyOwnFactory</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[13]/method"/>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[13]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.annotations.classes.FirstImplementationOfInterfaceOne</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+          <isConstructor>false</isConstructor>
+          <parameterTypes/>
+        </methodRef>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.ClassLinkMetadata[3]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata reference="../../../entry[8]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[2]"/>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.factories.ClassUnderTestFactory</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[3]/method"/>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[3]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodTwo</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[7]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[3]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.annotations.classes.FirstImplementationOfInterfaceOne</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[5]/method"/>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[5]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.annotations.factories.MyOwnFactory</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[7]/method"/>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[7]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.annotations.classes.SecondImplementationOfInterfaceOne</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../testsLinks/entry[4]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[2]/method"/>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[14]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata reference="../../../entry[5]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[2]"/>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.annotations.interfaces.AbstractClassExtendingInterfaceAddingAnnotations</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../testsLinks/entry[4]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[4]/method"/>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata reference="../../../entry[4]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[3]"/>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.annotations.interfaces.AbstractClassExtendingInterfaceAddingAnnotations</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[2]/method"/>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[2]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata reference="../../../entry[4]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[2]"/>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.annotations.interfaces.AbstractClassExtendingInterfaceAddingAnnotations</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[6]/method"/>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[6]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodTwo</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[7]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[4]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.annotations.classes.SecondImplementationOfInterfaceOne</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[9]/method"/>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[9]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.instrumentation.App</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../testsLinks/entry[6]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata/method"/>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.instrumentation.AppTest</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testSetFooAlwaysPass</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[6]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.factories.DefaultClassUnderTestInstanceFactory</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[11]/method"/>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[11]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodTwo</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[7]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[5]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.instrumentation.App</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../testsLinks/entry/set/it.javalinux.sibilla.metadata.MethodLinkMetadata/method"/>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.instrumentation.AppTest</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testGetFooIntAlwaysPass</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry/set/it.javalinux.sibilla.metadata.MethodLinkMetadata/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.instrumentation.AppTest</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testSetFooIntAlwaysPass</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[3]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.factories.DefaultClassUnderTestInstanceFactory</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata/method"/>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodTwo</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[7]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[2]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.instrumentation.App</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../testsLinks/entry[5]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata/method"/>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.instrumentation.AppTest</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../../testsLinks/entry[5]/it.javalinux.sibilla.metadata.impl.MetadataRepository$MethodInfo/methodRef"/>
+          <status reference="../../../../../testsLinks/entry[5]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.instrumentation.AppTest</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../../testsLinks/entry[6]/it.javalinux.sibilla.metadata.impl.MetadataRepository$MethodInfo/methodRef"/>
+          <status reference="../../../../../testsLinks/entry[6]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[2]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.instrumentation.AppTest</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../../testsLinks/entry/it.javalinux.sibilla.metadata.impl.MetadataRepository$MethodInfo/methodRef"/>
+          <status reference="../../../../../testsLinks/entry/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[2]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.instrumentation.AppTest</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../../testsLinks/entry[3]/it.javalinux.sibilla.metadata.impl.MetadataRepository$MethodInfo/methodRef"/>
+          <status reference="../../../../../testsLinks/entry[3]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[2]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.annotations.interfaces.InterfaceUnderTestOne</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+          <isConstructor>false</isConstructor>
+          <parameterTypes/>
+        </methodRef>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.annotations.interfaces.TestClassOnInterfaceOne</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testMethodOne</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[2]/set/it.javalinux.sibilla.metadata.ClassLinkMetadata[4]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata reference="../../../entry[11]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata"/>
+      </set>
+    </entry>
+    <entry>
+      <it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+        <classRef>it.javalinux.sibilla.sample.instrumentation.App</classRef>
+        <methodRef class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata" reference="../../../../testsLinks/entry[5]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[2]/method"/>
+      </it.javalinux.sibilla.metadata.impl.MetadataRepository_-MethodInfo>
+      <set>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.instrumentation.AppTest</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testGetFooAlwaysPass</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[5]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[2]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+        <it.javalinux.sibilla.metadata.MethodLinkMetadata>
+          <clazz>it.javalinux.sibilla.sample.instrumentation.AppTest</clazz>
+          <method class="it.javalinux.sibilla.metadata.impl.ImmutableMethodMetadata">
+            <name>testSetFooAlwaysPass</name>
+            <isConstructor>false</isConstructor>
+            <parameterTypes/>
+          </method>
+          <status reference="../../../../../testsLinks/entry[6]/set/it.javalinux.sibilla.metadata.MethodLinkMetadata[3]/status"/>
+        </it.javalinux.sibilla.metadata.MethodLinkMetadata>
+      </set>
+    </entry>
+  </isTestedByLinks>
+</it.javalinux.sibilla.metadata.impl.MetadataRepository>

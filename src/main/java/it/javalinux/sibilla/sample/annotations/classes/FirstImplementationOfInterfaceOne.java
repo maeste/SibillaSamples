@@ -1,5 +1,5 @@
 /*
- * Stefano Maestri, javalinuxlabs.org Copyright 2008, and individual contributors
+ * Stefano Maestri, javalinux.it Copyright 2010, and individual contributors
  * as indicated by the @author tags. See the copyright.txt file in the
  * distribution for a full listing of individual contributors. 
  *
@@ -18,26 +18,32 @@
  * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
  */
-package it.javalinux.testedby.sample.annotations.classes;
+package it.javalinux.sibilla.sample.annotations.classes;
 
-import static org.junit.Assert.fail;
-
-import org.junit.Test;
+import it.javalinux.sibilla.sample.annotations.interfaces.InterfaceUnderTestOne;
 
 /**
  * @author Stefano Maestri stefano.maestri@javalinux.it
- * 
+ *
  */
+public class FirstImplementationOfInterfaceOne implements InterfaceUnderTestOne {
 
-public class TestClassOne {
-
-    @Test
-    public void testMethodOne() {
-	System.out.println("invoking testMethodOne on " + this.getClass().getCanonicalName());
+    /**
+     * {@inheritDoc}
+     *
+     * @see it.javalinux.sibilla.sample.annotations.interfaces.InterfaceUnderTestOne#methodOne()
+     */
+    public void methodOne() {
+	System.out.println("invoking methodOne on " + this.getClass().getCanonicalName());
     }
 
-    @Test
-    public void testMethodTwo() {
-	System.out.println("invoking testMethodTwo on " + this.getClass().getCanonicalName());
+    /**
+     * {@inheritDoc}
+     *
+     * @see it.javalinux.sibilla.sample.annotations.interfaces.InterfaceUnderTestOne#methodTwo()
+     */
+    public void methodTwo() {
+	System.out.println("invoking methodOne on " + this.getClass().getCanonicalName());
     }
+
 }

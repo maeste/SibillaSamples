@@ -1,5 +1,5 @@
 /*
- * Stefano Maestri, javalinux.it Copyright 2010, and individual contributors
+ * Stefano Maestri, javalinuxlabs.org Copyright 2008, and individual contributors
  * as indicated by the @author tags. See the copyright.txt file in the
  * distribution for a full listing of individual contributors. 
  *
@@ -18,32 +18,23 @@
  * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
  */
-package it.javalinux.testedby.sample.annotations.classes;
+package it.javalinux.sibilla.sample.annotations.factories;
 
-import it.javalinux.testedby.sample.annotations.interfaces.InterfaceUnderTestOne;
+import it.javalinux.sibilla.factories.ClassUnderTestInstanceFactory;
+import it.javalinux.sibilla.sample.annotations.classes.SecondImplementationOfInterfaceOne;
 
-/**
- * @author Stefano Maestri stefano.maestri@javalinux.it
- *
- */
-public class FirstImplementationOfInterfaceOne implements InterfaceUnderTestOne {
-
-    /**
-     * {@inheritDoc}
-     *
-     * @see it.javalinux.testedby.sample.annotations.interfaces.InterfaceUnderTestOne#methodOne()
-     */
-    public void methodOne() {
-	System.out.println("invoking methodOne on " + this.getClass().getCanonicalName());
+public class MyOwnFactory implements ClassUnderTestInstanceFactory{
+    @SuppressWarnings("unused")
+    public MyOwnFactory() {
+       
     }
 
     /**
      * {@inheritDoc}
      *
-     * @see it.javalinux.testedby.sample.annotations.interfaces.InterfaceUnderTestOne#methodTwo()
+     * @see it.javalinux.sibilla.factories.ClassUnderTestInstanceFactory#createInstance(java.lang.Class)
      */
-    public void methodTwo() {
-	System.out.println("invoking methodOne on " + this.getClass().getCanonicalName());
+    public <T> T createInstance(Class<T> clazz) throws InstantiationException, IllegalAccessException {
+        return (T) new SecondImplementationOfInterfaceOne("foo");
     }
-
 }

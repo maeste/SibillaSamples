@@ -2,11 +2,11 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>it.javalinux.testedby</groupId>
-  <artifactId>testedbySample</artifactId>
+  <groupId>it.javalinux.sibilla</groupId>
+  <artifactId>sibillaSample</artifactId>
   <packaging>jar</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>testedbySample</name>
+  <name>sibillaSample</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -16,27 +16,27 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>it.javalinux.testedby</groupId>
-      <artifactId>TestedBy</artifactId>
+      <groupId>it.javalinux.sibilla</groupId>
+      <artifactId>Sibilla</artifactId>
       <version>0.0.1-SNAPSHOT</version>
     </dependency>
   </dependencies>
   <build>
     <plugins>
       <plugin>
-        <groupId>it.javalinux.testedby.plugins</groupId>
-        <artifactId>maven-testedby-plugin</artifactId>
+        <groupId>it.javalinux.sibilla.plugins</groupId>
+        <artifactId>maven-sibilla-plugin</artifactId>
         <version>1.0-SNAPSHOT</version>
         <configuration>
           <verbose>true</verbose>
           <staleMillis>100</staleMillis>
-          <runnerClass>it.javalinux.testedby.runner.impl.JunitTestRunner</runnerClass>
+          <runnerClass>it.javalinux.sibilla.runner.impl.JunitTestRunner</runnerClass>
         </configuration>
         <executions>
           <execution>
             <phase>process-test-classes</phase>
             <goals>
-              <goal>testedby</goal>
+              <goal>sibilla</goal>
             </goals>
           </execution>
         </executions>

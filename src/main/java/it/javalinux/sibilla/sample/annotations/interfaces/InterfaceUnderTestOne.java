@@ -18,23 +18,20 @@
  * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
  */
-package it.javalinux.testedby.sample.annotations.factories;
+package it.javalinux.sibilla.sample.annotations.interfaces;
 
-import it.javalinux.testedby.factories.ClassUnderTestInstanceFactory;
-import it.javalinux.testedby.sample.annotations.classes.SecondImplementationOfInterfaceOne;
+import it.javalinux.sibilla.annotations.TestedBy;
 
-public class MyOwnFactory implements ClassUnderTestInstanceFactory{
-    @SuppressWarnings("unused")
-    public MyOwnFactory() {
-       
-    }
+/**
+ * @author Stefano Maestri stefano.maestri@javalinux.it
+ * 
+ */
+@TestedBy(testClass = "TestClassOnInterfaceOne", testMethod = "testMethodOne")
+public interface InterfaceUnderTestOne {
 
-    /**
-     * {@inheritDoc}
-     *
-     * @see it.javalinux.testedby.factories.ClassUnderTestInstanceFactory#createInstance(java.lang.Class)
-     */
-    public <T> T createInstance(Class<T> clazz) throws InstantiationException, IllegalAccessException {
-        return (T) new SecondImplementationOfInterfaceOne("foo");
-    }
+    public void methodOne();
+
+    @TestedBy(testClass = "TestClassOnInterfaceTwo", testMethod = "testMethodOne")
+    public void methodTwo();
+
 }

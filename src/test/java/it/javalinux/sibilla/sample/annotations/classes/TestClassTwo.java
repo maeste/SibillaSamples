@@ -18,20 +18,24 @@
  * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
  */
-package it.javalinux.testedby.sample.annotations.interfaces;
+package it.javalinux.sibilla.sample.annotations.classes;
 
-import it.javalinux.testedby.annotations.TestedBy;
+import org.junit.Test;
 
 /**
  * @author Stefano Maestri stefano.maestri@javalinux.it
  * 
  */
-@TestedBy(testClass = "TestClassOnInterfaceOne", testMethod = "testMethodOne")
-public interface InterfaceUnderTestOne {
 
-    public void methodOne();
+public class TestClassTwo {
 
-    @TestedBy(testClass = "TestClassOnInterfaceTwo", testMethod = "testMethodOne")
-    public void methodTwo();
+    @Test
+    public void testMethodOne() {
+	System.out.println("invoking testMethodOne on " + this.getClass().getCanonicalName());
+    }
 
+    @Test
+    public void testMethodTwo() {
+	System.out.println("invoking testMethodTwo on " + this.getClass().getCanonicalName());
+    }
 }
