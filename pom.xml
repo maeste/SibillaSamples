@@ -24,24 +24,6 @@
   <build>
     <plugins>
       <plugin>
-        <groupId>it.javalinux.sibilla.plugins</groupId>
-        <artifactId>maven-sibilla-plugin</artifactId>
-        <version>1.0-SNAPSHOT</version>
-        <configuration>
-          <verbose>true</verbose>
-          <staleMillis>100</staleMillis>
-          <runnerClass>it.javalinux.sibilla.runner.impl.JunitTestRunner</runnerClass>
-        </configuration>
-        <executions>
-          <execution>
-            <phase>process-test-classes</phase>
-            <goals>
-              <goal>sibilla</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>2.0.2</version>
@@ -54,4 +36,45 @@
       </plugin>
     </plugins>
   </build>
+  
+  <profiles>
+    <profile>
+      <id>sibilla</id>
+      <activation>
+        <property>
+          <name>!useSurefire</name>
+        </property>
+      </activation>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>it.javalinux.sibilla.plugins</groupId>
+            <artifactId>maven-sibilla-plugin</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <configuration>
+              <verbose>true</verbose>
+              <staleMillis>100</staleMillis>
+              <runnerClass>it.javalinux.sibilla.runner.impl.JunitTestRunner</runnerClass>
+            </configuration>
+            <executions>
+              <execution>
+                <phase>process-test-classes</phase>
+                <goals>
+                  <goal>sibilla</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <configuration>
+              <skipTests>true</skipTests>
+            </configuration>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
+  
 </project>

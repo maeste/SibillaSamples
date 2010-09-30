@@ -44,7 +44,7 @@ public class ImplementationOfInterfaceOneThroughAbstractClass extends AbstractCl
      * @see it.javalinux.sibilla.sample.annotations.interfaces.InterfaceUnderTestOne#methodTwo()
      */
     public void methodTwo() {
-	System.out.println("invoking methodOne on " + this.getClass().getCanonicalName());
+	System.out.println("invoking methodTwo on " + this.getClass().getCanonicalName());
     }
 
 }
