@@ -4,10 +4,10 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>it.javalinux.sibilla</groupId>
   <artifactId>sibillaSample</artifactId>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
   <version>0.0.1-SNAPSHOT</version>
   <name>sibillaSample</name>
-  <url>http://maven.apache.org</url>
+  <url>http://www.javalinux.it/sibilla</url>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -36,8 +36,23 @@
       </plugin>
     </plugins>
   </build>
-  
+
+  <modules>
+    <module>instrumentation</module>
+  </modules>
+
   <profiles>
+    <profile>
+      <id>annotations</id>
+      <activation>
+        <property>
+          <name>annotations</name>
+        </property>
+      </activation>
+      <modules>
+        <module>annotations</module>
+      </modules>
+    </profile>
     <profile>
       <id>sibilla</id>
       <activation>
