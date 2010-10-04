@@ -1,0 +1,39 @@
+          Sibilla Samples Quick Ref
+--------------------------------------------------------
+
+This project is a collection of basic samples for playing
+and getting started with the Sibilla Test features.
+
+The sample project is currently based on a multi-module
+Maven project. The main pom.xml adds the Sibilla Maven
+Plugin for binding Sibilla to the process-test-classes
+Maven phase while turning off Surefire plugin in the
+test phase (that's required for handing over the test
+execution to Sibilla). This way Sibilla is able to
+properly detect which classes are modified in between
+subsequent compilations and establish which tests really
+need to be executed and which can be safetly skipped.
+
+* Instrumentation-only sample
+
+This sample is enabled by default.
+Just run 'mvn clean test' from the main dir of the project
+for an initial run of all tests. Sibilla takes care of
+instrumenting classes code for populating its metadata
+(which is stored in the target directory).
+Once the first full test run is over, you can try running
+'mvn test' again and you'll see that no test is run, as
+nothing changed, so there's no need of re-running anything.
+Now you can try applying a basic change to -for instance-
+the it.javalinux.sibilla.sample.taxi.Stop class. Then run
+again 'mvn test'. Now the only executed tests is
+it.javalinux.sibilla.sample.taxi.TaxiTest#testRun as that's
+the only test in the only test classes that currently
+exercises the modified Stop class.
+An additional modification of the Address class followed
+by another 'mvn test' would trigger the the same TaxiTest
+as before plus it.javalinux.sibilla.sample.taxi.AddressTest
+which the other unit test covering the Address class.
+Nice, isn't it?
+
+* Annotation sample
