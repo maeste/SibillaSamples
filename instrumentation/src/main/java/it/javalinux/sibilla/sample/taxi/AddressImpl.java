@@ -20,38 +20,61 @@
  */
 package it.javalinux.sibilla.sample.taxi;
 
-import java.util.logging.Logger;
-
-import org.junit.Test;
-
-import static org.junit.Assert.assertEquals;
-
 /**
  * @author alessio.soldano@javalinux.it
  * @since 01-Oct-2010
  *
  */
-public class AddressTest {
+public class AddressImpl implements Address {
     
-    private static Logger logger = Logger.getLogger(AddressTest.class.getName());
+    private String street;
+    private String city;
     
-    @Test
-    public void testName()
+    public AddressImpl()
     {
-	logger.info("***** RUNNING testName... *****");
-	Address address = new AddressImpl();
-	address.setCity("Rome");
-	address.setStreet("Piazza Navona");
-	assertEquals("'Piazza Navona, Rome'", address.toString());
+	
     }
     
-    @Test
-    public void testCity()
+    public AddressImpl(String street, String city)
     {
-	logger.info("***** RUNNING testCity... *****");
-	Address address = new AddressImpl();
-	address.setCity("Rome");
-	assertEquals("Rome", address.getCity());
+    	// a change
+	this.city = city;
+	this.street = street;
     }
     
+    /* (non-Javadoc)
+	 * @see it.javalinux.sibilla.sample.taxi.Address#getStreet()
+	 */
+    @Override
+	public String getStreet() {
+        return street;
+    }
+    /* (non-Javadoc)
+	 * @see it.javalinux.sibilla.sample.taxi.Address#setStreet(java.lang.String)
+	 */
+    @Override
+	public void setStreet(String street) {
+        this.street = street;
+    }
+    /* (non-Javadoc)
+	 * @see it.javalinux.sibilla.sample.taxi.Address#getCity()
+	 */
+    @Override
+	public String getCity() {
+		
+        return city;
+    }
+    /* (non-Javadoc)
+	 * @see it.javalinux.sibilla.sample.taxi.Address#setCity(java.lang.String)
+	 */
+    @Override
+	public void setCity(String city) {
+        this.city = city;
+    }
+    
+    @Override
+    public String toString()
+    {
+	return "'" + street + ", " + city + "'";
+    }
 }

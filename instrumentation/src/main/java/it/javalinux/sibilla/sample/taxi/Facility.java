@@ -27,6 +27,8 @@ package it.javalinux.sibilla.sample.taxi;
  */
 public interface Facility {
     
+	public static final double MIN_COST = 100;
+	
     public double getDailyCost();
     
 }

@@ -36,16 +36,16 @@ public class TaxiTest {
     private static Logger logger = Logger.getLogger(TaxiTest.class.getName());
     
     @Test
-    public void testRun()
+    public void testRun() throws Exception
     {
 	logger.info("***** RUNNING testRun... *****");
 	Taxi taxi = new Taxi(200.0);
 	Stop s1 = new Stop();
-	s1.setAddress(new Address("Piazza Duomo", "Milan"));
+	s1.setAddress(new AddressImpl("Piazza Duomo", "Milan"));
 	Stop s2 = new Stop();
-	s2.setAddress(new Address("Piazza S.Babila", "Milan"));
+	s2.setAddress(new AddressImpl("Piazza S.Babila", "Milan"));
 	Stop s3 = new Stop();
-	s3.setAddress(new Address("Viale Lombardia", "Milan"));
+	s3.setAddress(new AddressImpl("Viale Lombardia", "Milan"));
 	Request r1 = new Request("Req1");
 	r1.setPersons(3);
 	r1.setPickup(s1);

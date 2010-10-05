@@ -35,13 +35,14 @@ public class Taxi implements Facility {
 
     private List<Request> requests = new LinkedList<Request>();
 
-    private Depot depot;
+    private Location depot;
 
     private double cost;
     private double income = 0;
     
     public Taxi(double cost)
     {
+    	// achange
 	this.cost = cost;
     }
 
@@ -78,7 +79,7 @@ public class Taxi implements Facility {
     /**
      * @return depot
      */
-    public Depot getDepot() {
+    public Location getDepot() {
 	return depot;
     }
 
@@ -86,7 +87,7 @@ public class Taxi implements Facility {
      * @param depot
      *            Sets depot to the specified value.
      */
-    public void setDepot(Depot depot) {
+    public void setDepot(Location depot) {
 	this.depot = depot;
     }
 

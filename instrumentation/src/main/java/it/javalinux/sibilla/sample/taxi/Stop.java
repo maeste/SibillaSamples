@@ -26,13 +26,14 @@ package it.javalinux.sibilla.sample.taxi;
  * @since 01-Oct-2010
  *
  */
-public class Stop {
+public class Stop implements Location {
     
     private Address address;
 
     /**
      * @return address
      */
+    @Override
     public Address getAddress() {
         return address;
     }
@@ -40,8 +41,11 @@ public class Stop {
     /**
      * @param address Sets address to the specified value.
      */
-    public void setAddress(Address address) {
+    @Override
+    public void setAddress(Address address) throws InvalidAddressrException {
+    	//if (address.getStreet() == null) throw new InvalidAddressrException();
         this.address = address;
+        
     }
     
     @Override

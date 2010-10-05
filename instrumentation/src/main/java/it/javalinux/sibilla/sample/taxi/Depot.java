@@ -20,16 +20,24 @@
  */
 package it.javalinux.sibilla.sample.taxi;
 
+import it.javalinux.sibilla.annotations.SibillaFactory;
+
 /**
  * @author alessio.soldano@javalinux.it
  * @since 01-Oct-2010
  *
  */
-public class Depot implements Facility, Manageable {
-    
+
+public class Depot implements Facility, Manageable, Location {
+	
     private Address address;
     private double cost;
     private boolean available;
+    
+    public Depot() {
+    	this.cost = Facility.MIN_COST;
+    	this.available = true;
+    }
     
     public Depot(double cost, boolean available)
     {
@@ -37,18 +45,22 @@ public class Depot implements Facility, Manageable {
 	this.available = available;
     }
 
-    /**
-     * @return address
-     */
-    public Address getAddress() {
+    /* (non-Javadoc)
+	 * @see it.javalinux.sibilla.sample.taxi.Location#getAddress()
+	 */
+    @Override
+	public Address getAddress() {
         return address;
     }
 
-    /**
-     * @param address Sets address to the specified value.
-     */
-    public void setAddress(Address address) {
+    /* (non-Javadoc)
+	 * @see it.javalinux.sibilla.sample.taxi.Location#setAddress(it.javalinux.sibilla.sample.taxi.Address)
+	 */
+    @Override
+	public void setAddress(Address address) throws InvalidAddressrException {
+    	//if (address.getStreet() == null) throw new InvalidAddressrException();
         this.address = address;
+        
     }
 
     /**
@@ -56,7 +68,8 @@ public class Depot implements Facility, Manageable {
      *
      * @see it.javalinux.sibilla.sample.taxi.Facility#getDailyCost()
      */
-    public double getDailyCost() {
+    @Override
+	public double getDailyCost() {
 	return cost;
     }
 
@@ -65,7 +78,8 @@ public class Depot implements Facility, Manageable {
      *
      * @see it.javalinux.sibilla.sample.taxi.Manageable#close()
      */
-    public void close() {
+    @Override
+	public void close() {
 	this.available = false;
     }
 
@@ -74,7 +88,8 @@ public class Depot implements Facility, Manageable {
      *
      * @see it.javalinux.sibilla.sample.taxi.Manageable#isAvailable()
      */
-    public boolean isAvailable() {
+    @Override
+	public boolean isAvailable() {
 	return available;
     }
 
@@ -83,7 +98,8 @@ public class Depot implements Facility, Manageable {
      *
      * @see it.javalinux.sibilla.sample.taxi.Manageable#open()
      */
-    public void open() {
+    @Override
+	public void open() {
 	this.available = true;
     }
 

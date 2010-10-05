@@ -37,3 +37,23 @@ which the other unit test covering the Address class.
 Nice, isn't it?
 
 * Annotation sample
+To test what Sibilla could with Annotation we have provided
+in this sample the interface Location and its LocationTest
+To enable them uncomment @Test annotation into LocationTest
+and @TestedBy annotation into Location.
+Now TestedBy will run (after a mvn clean) LocationTest
+against all implementation of Location interface. In our
+samples Locations is impemented by Depot and Stop classes.
+In both classes the setAddress test have a commented line 
+that have to be uncommented to make LocationTest pass.
+Try to run "mvn clean install" leaving that line commented
+in both concrete class and you will see 2 tests failing.
+Uncomment this line and you will get test pass.
+The "magic" here is that the test are defined against 
+the interface (have a look how we are instanciating Location
+object in LocationTest) and TestedBy take care to run this
+test against all concrete implementation of the interface.
+In fact you are defining runtime comtract on the interface 
+veryfied during test phase.
+In future version we willsupport also annotation on the other way
+(annotation of test classes and not classes under test)
