@@ -5,14 +5,14 @@
   <groupId>it.javalinux.sibilla</groupId>
   <artifactId>sibillaSampleInstrumentation</artifactId>
   <packaging>jar</packaging>
-  <version>1.0.0.Beta1</version>
+  <version>1.0.0-SNAPSHOT</version>
   <name>sibillaSampleInstrumentation</name>
   <url>http://www.javalinux.it/sibilla</url>
   
   <parent>
     <groupId>it.javalinux.sibilla</groupId>
     <artifactId>sibillaSample</artifactId>
-    <version>1.0.0.Beta1</version>
+    <version>1.0.0-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
   <dependencies>
